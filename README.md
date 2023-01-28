@@ -129,7 +129,7 @@ end
 ```lua
 -- qw_queue:server:addToQueue
 
-AddEventHandler('qw_queue:server:queueDataUpdated', function(queueName, ident)
+AddEventHandler('qw_queue:server:addToQueue', function(queueName, ident)
     print(queueName, ident)
 end)
 ```
